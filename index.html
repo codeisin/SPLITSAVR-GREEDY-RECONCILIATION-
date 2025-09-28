@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SplitSavr</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>SplitSavr</h1>
+
+    <div id="input-section">
+      <input type="text" id="name" placeholder="Name" />
+      <input type="number" id="amount" placeholder="Amount Paid" />
+      <button onclick="addEntry()">Add Entry</button>
+    </div>
+
+    <ul id="entries"></ul>
+
+    <button onclick="calculateSplit()">Calculate Split</button>
+
+    <div id="results"></div>
+  </div>
+</body>
+</html>
