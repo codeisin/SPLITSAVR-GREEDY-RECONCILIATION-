@@ -42,4 +42,16 @@
 Open in browser
 http://localhost:3000
 
+🔮 Future Enhancements
+
+Add support for custom paid amounts per person
+
+Save and fetch split history
+
+Add transaction summary PDF export
+
+User authentication and group splitting
+
+Also add backend(Node.js)
+
 
